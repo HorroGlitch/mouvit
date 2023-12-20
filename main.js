@@ -6,10 +6,10 @@ let buttonAdd = document.querySelector('#buttonPlus');
 let buttonMoins = document.querySelector('#buttonLess');
 let buttonBackToNormal = document.querySelector('#buttonReset');
 let counterText = document.querySelector("#counter");
-let counterAdd = 10;
-
+let GameBox = document.querySelector(".theGameBox");
 let counterDiv = document.querySelector(".counter");
 
+let counterAdd = 10;
 // let closeIt = document.querySelector(".closeIt");
 
 // closeIt.addEventListener("click"), ()=>{
@@ -70,6 +70,9 @@ document.addEventListener('keydown', (e)=>{
 
 });
 
+function createBonus(params) {
+  
+}
 
 
     
